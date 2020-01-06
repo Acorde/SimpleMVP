@@ -12,6 +12,7 @@ public interface MainActivityContract {
         void onStart();
         void onPause();
         void onDestroy();
+        void onResume();
     }
 
 

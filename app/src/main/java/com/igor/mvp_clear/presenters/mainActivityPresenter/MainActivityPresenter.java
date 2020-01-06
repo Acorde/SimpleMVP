@@ -41,4 +41,9 @@ public class MainActivityPresenter extends BasePresenter<MainActivityContract.Vi
     public void onDestroy() {
 
     }
+
+    @Override
+    public void onResume() {
+
+    }
 }
