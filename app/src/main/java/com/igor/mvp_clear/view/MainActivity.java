@@ -60,4 +60,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
         presenter.onStart();
         super.onStart();
     }
+
+    @Override
+    protected void onResume() {
+        //presenter.onResume();
+        super.onResume();
+    }
 }
